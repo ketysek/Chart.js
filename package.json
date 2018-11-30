@@ -1,13 +1,13 @@
 {
-  "name": "chart.js",
+  "name": "chart.js-meiro",
   "homepage": "http://www.chartjs.org",
   "description": "Simple HTML5 charts using the canvas element.",
-  "version": "2.7.3",
+  "version": "0.1.0",
   "license": "MIT",
   "main": "src/chart.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chartjs/Chart.js.git"
+    "url": "git+https://github.com/chartjs/Chart.js.git"
   },
   "devDependencies": {
     "browserify": "^16.2.3",
@@ -53,5 +53,22 @@
   "dependencies": {
     "chartjs-color": "^2.1.0",
     "moment": "^2.10.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/chartjs/Chart.js/issues"
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chart",
+    "charts",
+    "chart.js",
+    "chartjs"
+  ],
+  "author": "Jirka Ketner"
 }
