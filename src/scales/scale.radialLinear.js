@@ -275,20 +275,6 @@ module.exports = function(Chart) {
 				position.x -= (paddingValue / 2);
 			}
 		}
-
-		/*
-		    else if(angle > 180 && angle < 270) {
-			
-		} 
-		*/
-		
-		/*
-		if (angle === 90 || angle === 270) {
-			position.y -= (textSize.h / 2);
-		} else if (angle > 270 || angle < 90) {
-			position.y -= textSize.h;
-		}
-		*/
 	}
 
 	function drawPointLabels(scale) {
